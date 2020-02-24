@@ -1,0 +1,81 @@
+@font-face {
+    font-family: KeepCalm;
+    src: url(KeepCalm-Medium.ttf);
+}
+
+body{
+    
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #277cb5;
+    color:#f7941e;    
+}
+#botao{
+    background: #f7941e;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+}
+form label, form button{
+    display: block;
+}
+.resultado{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+    width: 600px;
+    background-color: #f7941e;
+    color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 15PX;
+    text-align: center;
+    font-size: 50px;
+}
+.centro{
+    border-left: 50%;
+    align-items: center;
+}
+.container{
+    font-family: 'KeepCalm';
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    height: 200px;    
+    text-align: center;
+    margin-top: 150px;
+}
+.menutopo{
+    font-family: 'KeepCalm';
+    width: 100%;
+    height: 80px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: #f7941e;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    box-shadow: 0px 5px rgba(00, 00, 00, 0.4);
+    padding-top: 25px;
+}
+
+#botao {
+    margin-top: 20px;
+    display: inline;
+    background-color: #277cb5;
+    cursor: pointer;
+    outline: none; 
+}
+
+
+#botao:hover {
+    background-color: #f7941e;
+}
