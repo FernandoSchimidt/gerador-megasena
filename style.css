@@ -79,3 +79,18 @@ form label, form button{
 #botao:hover {
     background-color: #f7941e;
 }
+@media (max-width: 1174.9px) {
+    .menutopo{
+        height: 150px;
+    }
+}
+@media (max-width: 767.9px) {
+    .menutopo{
+        height: 170px;
+    }
+}
+@media (max-width: 442.9px) {
+.menutopo{
+    height: 300px;   
+}
+}
