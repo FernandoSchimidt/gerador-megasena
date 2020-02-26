@@ -21,6 +21,9 @@ body {
     font-size: 20px;
     border: none;
     text-align: center;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 3px 1px -2px rgba(0, 0, 0, 0.12),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 form label,
@@ -39,6 +42,10 @@ form button {
     margin-left: 15PX;
     text-align: center;
     font-size: 50px;
+    display: flex;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 3px 1px -2px rgba(0, 0, 0, 0.12),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .centro {
@@ -56,6 +63,9 @@ form button {
     height: 200px;
     text-align: center;
     margin-top: 150px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 3px 1px -2px rgba(0, 0, 0, 0.12),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .menutopo {
@@ -89,7 +99,7 @@ form button {
 
 @media (max-width: 1174.9px) {
     .menutopo {
-        height: 150px;
+        height: 120px;
     }
 
     .container {
@@ -99,12 +109,13 @@ form button {
 
 @media (max-width: 767.9px) {
     .menutopo {
-        height: 170px;
+        height: 150px;
+        font-size: 45px;
     }
 
     .resultado {
         font-size: 37px;
-        width: 440px;
+        width: 430px;
     }
 
     .container {
@@ -114,12 +125,12 @@ form button {
 
 @media (max-width: 442.9px) {
     .menutopo {
-        height: 300px;
+        height: 270px;
     }
 
     .resultado {
         font-size: 35px;
-        width: 330px;
+        width: 300px;
     }
 
     .container {
@@ -131,12 +142,12 @@ form button {
 
 @media (max-width: 392.9px) {
     .menutopo {
-        height: 300px;
+        height: 250px;
     }
 
     .resultado {
         font-size: 23px;
-        width: 290px;
+        width: 250px;
         vertical-align: middle;
         text-align: center;
     }
